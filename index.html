@@ -8,12 +8,15 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+    <div id="loader">
+        <div class="spinner"></div>
+    </div>
     <header>
         <img src="logo.png" alt="Logo" class="logo">
         <h1>Обо мне</h1>
     </header>
 
-    <section id="about-me">
+    <section id="about-me" >
         <img src="profile.jpg" alt="Фотография" class="profile-photo">
         <div>
             <h2>Кто я?</h2>
@@ -29,18 +32,18 @@
         </div>
     </section>
 
-    <section id="projects">
+    <section id="projects" class="animate-on-scroll">
         <h2>Мои проекты</h2>
-        <div class="project">
-            <h3>Робот-суммоист</h3>
-            <p>Робот для участия в соревнованиях, оснащенный радиоуправлением и мощными моторами с редуктором. Код лежит на GitHub.</p>
+        <div class="project" >
+            <h3>Боевой робот</h3>
+            <p>Робот для участия в боях, оснащенный радиоуправлением и мощными моторами с редуктором. Сила опракидывания 3.76кг, сила тяги моторов примерно 4кг. Код лежит на GitHub.</p>
             <a href="https://github.com/Astal1x/wireless-killing-machine" class="btn" target="_blank">Посмотреть код</a>
             <img src="robot.jpg" alt="Фото робота-суммоиста" class="project-photo">
         </div>
 
         <div class="project">
             <h3>Умная теплица</h3>
-            <p>Мини-теплица на основе Raspberry Pi для мониторинга температуры и освещения растений. Пока что прототип, но в ближайшее время все планы воплотятся.</p>
+            <p>Мини-теплица на основе Raspberry Pi для автоматизации выращивания травяных культур. Пока что прототип, но в ближайшее время все планы воплотятся.</p>
             <a href="https://github.com/Astal1x/smart-greenhouse" class="btn" target="_blank">Посмотреть код</a>
             <img src="greenhouse.jpg" alt="Фото умной теплицы" class="project-photo">
         </div>
@@ -53,18 +56,18 @@
         </div>
     </section>
 
-    <section id="achievements">
+    <section id="achievements" class="animate-on-scroll">
         <h2>Мои участия в олимпиадах</h2>
         <ul>
-            <li>JasSkills по веб-технологиям - 1 место</li>
-            <li>STEM Олимпиада (2022-2024 год) - 6 призовое место</li>
+            <li>JasSkills Aqmola по веб-технологиям - 1 место(10 класс)</li>
+            <li>STEM Олимпиада (2022-2024 год) - 6 призовое место за 2023 год(10 класс)</li>
             <li>Городские олимпиады по информатике (8-11 классы) - 1-2 места</li>
             <li>Robotek Grand Tournament (2023 год)</li>
-            <li>Внутришкольные олимпиады по спортивному программированию - 2 место</li>
+            <li>Внутришкольные олимпиады по спортивному программированию - 2 место(10 класс)</li>
         </ul>
     </section>
 
-    <section id="certificates">
+    <section id="certificates" class="animate-on-scroll">
         <h2>Грамоты и награды</h2>
         <div class="certificates">
             <h3>JasSkills 2024 WEB-Technologies (1st Place)</h3>
@@ -84,11 +87,12 @@
         </div>
     </section>    
 
-    <section id="contacts">
+    <section id="contacts" class="animate-on-scroll">
         <h2>Связаться со мной:</h2>
         <p>Email: <a href="mailto:accum1t@gmail.com">accum1t@gmail.com</a></p>
         <p>Telegram: <a href="https://t.me/lonelymstar">Мой телеграмм</a></p>
         <p>GitHub: <a href="https://github.com/Astal1x" target="_blank">Мой GitHub</a></p>
-    </section>    
+    </section> 
+    <script src="script.js"></script>   
 </body>
 </html>
