@@ -1,0 +1,104 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background: #0078D4;
+    color: white;
+    display: flex;
+    align-items: center; /* Выравнивание по вертикали */
+    justify-content: center; /* Центрирует содержимое горизонтально */
+    position: relative; /* Для абсолютного позиционирования логотипа */
+    padding: 10px 20px;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+    color: white;
+}
+
+.logo {
+    position: absolute;
+    left: 20px;
+    width: 90px;
+    height: auto;
+}
+
+#about-me {
+    display: flex;
+    align-items: flex-start;
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 800px;
+    background: white;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.profile-photo {
+    width: 300px; 
+    height: auto;
+    margin-right: 20px;
+    border-radius: 8px; /* Скругленные углы */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+#about-me p {
+    margin: 0;
+    line-height: 1.6;
+}
+
+#about-me h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+section {
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 800px;
+    background: white;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    margin-top: 0;
+    color: #0078D4;
+}
+
+.project-photo, .certificate {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 10px 0;
+    border-radius: 5px; /* Скругленные углы */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Тень для фото */
+}
+
+ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+.btn {
+    display: inline-block;
+    background-color: #0078D4;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 10px;
+    font-size: 1em;
+    transition: background-color 0.3s;
+}
+
+.btn:hover {
+    background-color: #005bb5;
+}
