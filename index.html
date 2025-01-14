@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Портфолио Рамиля - навыки, проекты, достижения и контакты.">
+    <meta name="keywords" content="портфолио, Рамиль, робототехника, программирование, веб-технологии, STEM">
+    <meta name="author" content="Рамиль Вакиев">
+    <meta property="og:title" content="Мое портфолио">
+    <meta property="og:image" content="logo.png">
+    <title>Мое портфолио</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="loader">
+        <div class="spinner"></div>
+    </div>
+    <header>
+        <img src="./images/projects/logo.png" alt="Logo" class="logo" width="90" height="auto">
+        <h1>Обо мне</h1>
+    </header>
+
+    <section id="about-me">
+        <img src="./images/projects/profile.jpg" alt="Фотография" class="profile-photo" width="300" height="auto">
+        <div>
+            <h2>Кто я?</h2>
+            <p>Приветствую! Я Вакиев Рамиль, выпускник школы-гимназии №4 города Степногорск с опытом в различных IT сферах, такие как: робототехнике, программировании. Мои проекты и победы на олимпиадах отражают стремление развивать знания в этих областях.</p>
+            <h3>Мои навыки:</h3>
+            <ul>
+                <li>Радиотехника: Анализ и проектирование электрических цепей, работа с радиосигналами и электронными компонентами.</li>
+                <li>Программирование: Опыт в Python, C++, JavaScript, HTML, CSS.</li>
+                <li>Компьютерные технологии: Знание устройства компьютеров и взаимодействия технологий.</li>
+                <li>Работа в команде: Организация совместной работы, участие в командных олимпиадах, проектах, также провел школьную олимпиаду по робототехнике среди 1-6 классах.</li>
+                <li>STEM-проекты: Разработка на Arduino и Raspberry Pi с интеграцией датчиков и автоматизацией систем.</li>
+            </ul>
+            <button id="toggle-panel">Показать фотографии</button>
+            <div id="photo-panel" class="hidden">
+                <img src="./images/projects/prog1.jpg" alt="Фото 1" width="100%">
+                <img src="./images/projects/ard1.jpg" alt="Фото 2" width="100%">
+                <img src="./images/projects/projrct1.jpg" alt="Фото 3" width="100%">
+                <img src="./images/projects/organization.jpg" alt="Фото 4" width="100%">
+                <img src="./images/projects/organization2.jpg" alt="Фото 5" width="100%">
+                <img src="./images/projects/ardsoil.jpg" alt="Фото 6" width="100%">
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="animate-on-scroll">
+        <h2>Мои проекты</h2>
+        <div class="project" >
+            <h3>Боевой робот</h3>
+            <p>Робот для участия в боях, оснащенный радиоуправлением и мощными моторами с редуктором. Сила опракидывания 3.76кг, сила тяги моторов примерно 4кг. Код лежит на GitHub.</p>
+            <a href="https://github.com/Astal1x/wireless-killing-machine" class="btn" target="_blank">Посмотреть код</a>
+            <img src="images/projects/robot.jpg" alt="Фото робота-суммоиста" class="project-photo">
+        </div>
+
+        <div class="project">
+            <h3>Умная теплица</h3>
+            <p>Мини-теплица на основе Raspberry Pi для автоматизации выращивания травяных культур. Готовый результат ожидается к марту 2025 года.</p>
+            <a href="https://github.com/Astal1x/smart-greenhouse" class="btn" target="_blank">Посмотреть код</a>
+            <img src="images/projects/greenhouse.jpg" alt="Фото умной теплицы" class="project-photo">
+        </div>
+
+        <div class="project">
+            <h3>Простой калькулятор</h3>
+            <p>Обычный калькулятор, сделанный с помощью Arduino и свитчей, с кейкапами от игровой клавиатуры. В феврале ожидается релиз проекта.</p>
+            <a href="https://github.com/Astal1x/simple-calculator" class="btn" target="_blank">Посмотреть код</a>
+            <img src="images/projects/calculator.png" alt="Фото калькулятора" class="project-photo">
+        </div>
+        <div class="project">
+            <h3>Судно на воздушной подушке(Hovercraft)</h3>
+            <p>Дешевый и простой проект, который смог унести 700 грамм, максимально было 1кг. Занял 2 место из 113 команд с данным чудом инженерной мысли. STEM Olympiad</p>
+            <img src="images/projects/hovercraft.png" alt="Фото ховеркрафта" class="project-photo">
+        </div>
+        <div class="project">
+            <h3>Сейсмоустойчивая башня до 1кг</h3>
+            <p>Было построено из картона и палочек, скрепленных с помощью китайского клея и соды. Выдерживает до 110 кг, проводились тесты. STEM Olympiad 2023</p>
+            <img src="images/projects/tower.jpg" alt="Фото башни" class="project-photo">
+        </div>
+    </section>
+
+    <section id="achievements" class="animate-on-scroll">
+        <h2>Мои участия в олимпиадах</h2>
+        <ul>
+            <li data-img="images/awarding/MyCollages.jpg" data-desc="JasSkills Aqmola по веб-технологиям - 1 место(10 класс)">JasSkills Aqmola</li>
+            <li data-img="images/awarding/IMG_1256.jpg" data-desc="STEM Олимпиада (2022-2024 год) - 6 призовое место за 2023 год(10 класс)">STEM Олимпиада 2023</li>
+            <li data-img="images/awarding/Город1.jpg" data-desc="Городские олимпиады по информатике (8-11 классы) - 1-2 места">Городские олимпиады</li>
+            <li data-img="images/awarding/school.jpg" data-desc="Внутришкольные олимпиады по спортивному программированию - 2 место(10 класс)">Внутришкольные олимпиады</li>
+        </ul>
+        
+        <div class="panel">
+            <img id="panel-image" src="images/projects/3625035.png" alt="Выберите достижение">
+            <p id="panel-description">Выберите достижение из списка, чтобы увидеть подробности.</p>
+        </div>
+    </section>
+
+    <section id="certificates" class="animate-on-scroll">
+        <h2>Грамоты и награды</h2>
+        <div class="certificates">
+            <h3>International STEM Olympiad 2024</h3>
+            <img src="images/certificates/stem2024.jpeg" alt="Грамота 1" class="certificate">
+            <h3>JasSkills Aqmola 2024 WEB-Technologies (1st Place)</h3>
+            <img src="images/certificates/certificate1.jpg" alt="Грамота 2" class="certificate">
+            <h3>International STEM Olympiad 2023 (6th winner place)</h3>
+            <img src="images/certificates/certificate2.jpg" alt="Грамота 3" class="certificate">
+            <h3>Школьная олимпиада по программированию 2023</h3>
+            <img src="images/certificates/certificate4.png" alt="Грамота 4" class="certificate">
+            <h3>Town olympiad in programming 2024 (10 класс)</h3>
+            <img src="images/certificates/certificate5.jpg" alt="Грамота 5" class="certificate">
+            <h3>Областная олимпиада по программированию 2024 (10 класс)</h3>
+            <img src="images/certificates/oblast.jpg" alt="Грамота 6" class="certificate">
+            <h3>Town olympiad in programming 2024 (11 класс)</h3>
+            <p>1 место, но пока грамоту не выдали</p>
+            <h3>Областная олимпиада по программированию 2025(11 класс)</h3>
+            <img src="images/certificates/oblast2025.jpg" alt="Грамота 7" class="certificate">
+            <h3>Robotek Grand Tournament 2023</h3>
+            <img src="images/certificates/robo.png" alt="Грамота 8" class="certificate">
+            <h3>Городская олимпиада по программированию 2023 (9 класс)</h3>
+            <img src="images/certificates/certificate7.jpg" alt="Грамота 9" class="certificate">
+            <h3>International STEM Olympiad 2022</h3>
+            <img src="images/certificates/stem2022.jpeg" alt="Грамота 10" class="certificate">
+            <h3>Городская олимпиада по программированию 2022 (8 класс)</h3>
+            <img src="images/certificates/certificate6.jpg" alt="Грамота 11" class="certificate">
+        </div>
+    </section>    
+
+    <section id="contacts" class="animate-on-scroll">
+        <h2>Связаться со мной:</h2>
+        <p>Email: <a href="mailto:accum1t@gmail.com">accum1t@gmail.com</a></p>
+        <p>Telegram: <a href="https://t.me/lonelymstar">Мой телеграмм</a></p>
+        <p>GitHub: <a href="https://github.com/Astal1x" target="_blank">Мой GitHub</a></p>
+    </section> 
+    <script src="script.js"></script>   
+</body>
+</html>
